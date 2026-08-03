@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Link,useNavigate } from "react-router-dom";
-import Input from "../components/Input";
-import Button from "../components/Button";
+import Input from "../Components/Input";
+import Button from "../Components/Button";
 function Register() {
   const [name,setName] = useState("");
   const [email,setEmail] = useState("");
