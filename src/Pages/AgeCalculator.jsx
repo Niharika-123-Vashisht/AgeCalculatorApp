@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Input from "../components/Input";
-import AgeResult from "../components/AgeResult";
+import Input from "../Components/Input";
+import AgeResult from "../Components/AgeResult";
 function AgeCalculator(){
   const [day,setDay] =useState("");
   const [month,setMonth] =useState("");
