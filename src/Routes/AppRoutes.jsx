@@ -1,9 +1,9 @@
 import React from "react";
 import {Routes,Route} from "react-router-dom";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
-import Dashboard from "../pages/Dashboard";
-import AgeCalculator from "../pages/AgeCalculator";
+import Login from "../Pages/Login";
+import Register from "../Pages/Register";
+import Dashboard from "../Pages/Dashboard";
+import AgeCalculator from "../Pages/AgeCalculator";
 function AppRoutes() {
   return (
     <Routes>
